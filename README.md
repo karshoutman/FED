@@ -111,17 +111,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik vind code schrijven best lastig. Ook bij de vakken internetstandaarden en inleiding programmeren duurde het lang totdat ik iets had staan waar blij mee was. De eerste lessen van dit vak vind ik wel interessant, maar ook veel. Ik merk dat ik een beetje moeite heb met alles bijbenen. De eerste regels HTML en CSS staan voor 1 pagina. Duurt langgggg.. Maar goed. Ik geloof dat we er moeten komen.  
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Tico                 | Naomi.                                     | Brett                                                                 | Kars.            |
+  | ---                  | ---                                        | ---                                                                   | ---              |
+  | Basis HTML checken.  | HTML doorlopen en verbeteren waar nodig.   | Ik wil mijn site doornemen en even de elementen langslopen voor mijn breakdownschets.                                                                                                                              | Staat mijn mappenstructuur goed? En ik zou graag mijn eerste HTML (CSS) willen doorlopen. 
 
 
   ### Verslag van meeting
