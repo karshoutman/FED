@@ -91,10 +91,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### Homepagina: 
-  <img src="images/www.apple.com_nl_.png" width="375px" alt="breakdown van homepagina">
+  <img src="images/Apple homepagina 375px (iPhone SE).png" width="375px" alt="breakdown van homepagina">
 
   ### Kerstpagina: 
-  <img src="images/www.apple.com_nl_shop_gifts.png" width="375px" alt="breakdown van kerstpagina">
+  <img src="images/Apple kerstcadeaugids 375px (iPhone SE).png" width="375px" alt="breakdown van kerstpagina">
 
 </details>
 
