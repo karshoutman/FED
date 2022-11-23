@@ -94,7 +94,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="images/home.png" width="375px" alt="breakdown van homepagina">
 
   ### Kerstpagina: 
-  <img src="images/Apple kerstcadeaugids 375px (iPhone SE).png" width="375px" alt="breakdown van kerstpagina">
+  <img src="images/kerst.png" width="375px" alt="breakdown van kerstpagina">
 
 </details>
 
