@@ -1,34 +1,131 @@
-/**************/
-/* CSS REMEDY */
-/**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+body {background-color: #0A072C;}
+
+h1 {
+    color: white;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;;
+    font-size: 19px;
+    background: #151521;
+    padding: 12px 15px 12px;
+    margin-top: 0;
+    font-weight: 600;
 }
 
-button, summary {
-	cursor: pointer;
+h2{
+    color: white;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;;
+    font-weight: 600 ;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+img{
+    display: block;
+    width: 210px;
+    height: 215px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    margin-top: 12px;
+
+}
+
+p.paragraaf{
+    text-align: left;
+    padding-left: 12px;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+p.ondertitel{
+    text-align: left;
+    padding-left: 12px;
+    font-size: 17px;
+    font-weight: 400;
+    white-space: pre-wrap;
+}
+
+h2.titels{
+    margin-top: 9px;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 600;
+    padding-left: 12px;
+}
+
+img.grote-afbeelding{
+    display: block;
+    width: 315px;
+    height: 426px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
 }
 
 
 
 
-
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
-:root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+.header-menu{
+    background-color: #1D1D1F;
+    color: white;
+    margin: 0;
+    padding: 1rem 0;
+    border-radius: var(--radius);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: "SF Pro Display";
 }
 
+.nav-item{
+    list-style: none;
+    margin-right: 2rem;
+}
 
+.nav-item a{ 
+    text-decoration: none;
+    color: white;
+}
 
+.nav-item:first-child{
+    margin-right: auto;
+    margin-left: 2rem;
+}
 
+.doorklik{
+    color: white;
+    margin: 0;
+    padding: 1rem 0;
+    border-radius: var(--radius);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "SF Pro Display";
+    font-size: 17px;
+}
 
-/****************/
-/* JOUW STYLING */
-/****************/
+.doorverwijzing{
+    list-style: none;
+    margin-right: 2rem;
+    border-bottom: 1px solid #fff;
+}
 
-/* jouw code */
+.doorverwijzing a{ 
+    text-decoration: none;
+    color: white;
+}
 
+.doorverwijzing:first-child{
+    margin-right: auto;
+    margin-left: 2rem;
+    font-weight: 600;
+}
