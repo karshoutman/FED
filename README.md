@@ -139,7 +139,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik ben nog steeds bezig met de eerste pagina van mijn website. Ik denk dat er nu echt vaart achter moet en ik moet even inventariseren wat ik wil/moet doen voor een voldoende. 
 
 
   ### Agenda voor meeting
