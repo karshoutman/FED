@@ -1,27 +1,74 @@
-body {background-color: #0A072C;}
+/* algemeen */
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
 
-h1 {
+li {
+    list-style: none;
+    white-space: nowrap;
+}
+
+
+
+
+/* header */
+header nav ul{
+    background-color: #1D1D1F;
+    height: 3em;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 118px;
+}
+
+header img{
+    width: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+header h1 {
     color: white;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;;
     font-size: 19px;
     background: #151521;
     padding: 12px 15px 12px;
-    margin-top: 0;
     font-weight: 600;
 }
 
-h2{
-    color: white;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;;
-    font-weight: 600 ;
-    font-size: 48px;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
 
+
+
+/* doorklik menu */
+main nav ul {
+    margin-top: 6em;
+    margin-bottom: 8em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 1.9em;
 }
 
-img{
+main nav ul li a{
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+}
+
+
+
+
+/* main */
+main {
+    background-color: #0A072C;
+    padding: 0 1em;
+}
+
+main img:nth-of-type(1){
     display: block;
     width: 210px;
     height: 215px;
@@ -29,40 +76,7 @@ img{
     margin-right: auto;
 }
 
-p{
-    color: white;
-    font-size: 19px;
-    font-weight: 600;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
-    text-align: center;
-    margin-top: 12px;
-
-}
-
-p.paragraaf{
-    text-align: left;
-    padding-left: 12px;
-    font-size: 21px;
-    font-weight: 600;
-}
-
-p.ondertitel{
-    text-align: left;
-    padding-left: 12px;
-    font-size: 17px;
-    font-weight: 400;
-    white-space: pre-wrap;
-}
-
-h2.titels{
-    margin-top: 9px;
-    text-align: left;
-    font-size: 40px;
-    font-weight: 600;
-    padding-left: 12px;
-}
-
-img.grote-afbeelding{
+main img:nth-of-type(2){
     display: block;
     width: 315px;
     height: 426px;
@@ -71,61 +85,93 @@ img.grote-afbeelding{
     margin-top: 1.5em;
 }
 
-
-
-
-.header-menu{
-    background-color: #1D1D1F;
+main h1{
     color: white;
-    margin: 0;
-    padding: 1rem 0;
-    border-radius: var(--radius);
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    font-family: "SF Pro Display";
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;;
+    font-weight: 600 ;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.nav-item{
-    list-style: none;
-    margin-right: 2rem;
-}
-
-.nav-item a{ 
-    text-decoration: none;
+main h2{
     color: white;
-}
-
-.nav-item:first-child{
-    margin-right: auto;
-    margin-left: 2rem;
-}
-
-.doorklik{
-    color: white;
-    margin: 0;
-    padding: 1rem 0;
-    border-radius: var(--radius);
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    font-family: "SF Pro Display";
-    font-size: 17px;
-}
-
-.doorverwijzing{
-    list-style: none;
-    margin-right: 2rem;
-    border-bottom: 1px solid #fff;
-}
-
-.doorverwijzing a{ 
-    text-decoration: none;
-    color: white;
-}
-
-.doorverwijzing:first-child{
-    margin-right: auto;
-    margin-left: 2rem;
+    font-size: 19px;
     font-weight: 600;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    margin-top: 16px;
+}
+
+main h3{
+    color: white;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: left;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+main h4{
+    color: white;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-top: 9px;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+main p{
+    color: white;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: left;
+    padding-left: 3px;
+    font-size: 17px;
+    font-weight: 400;
+    white-space: pre-wrap;
+}
+
+
+
+/* blokken */
+section ul li{
+    padding: 1em;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+section p{
+    color: #1d1d1f;
+}
+
+section p:nth-of-type(1){
+    font-size: 14px;
+    font-weight: 600;
+}
+
+section p:nth-of-type(2){
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+
+
+
+section a{
+    text-decoration: none;
+}
+
+section img{
+    object-fit: contain;
+}
+
+a img,
+a p,
+a ul{
+    padding: 1em 0;
+    text-align: center;
 }
