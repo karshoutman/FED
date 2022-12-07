@@ -183,15 +183,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Met elastiekjes om m'n vingers is er geen verschil met de eigen Apple website. Het is wat lastiger maar het gaat.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Met de bril "Peripheral Field Loss" valt het wel mee met hoe moelijk het te lezen is. 
+  Met de bril "Central Field Loss" werd het al veel moeilijker. Je merkt dat je je hoofd moet draaien om de tekst te kunnen lezen. 
+  Met de bril "Combined Loss" vind ik het ook niet heel moeilijk om de website af te lezen. Je hebt wel wat vlekjes maar je kan er wel langs lezen. 
+  Met de bril "Color #0779P" is het ook makkelijk af te lezen alleen denk ik wel dat hoe meer contrast je hebt op je website hoe fijner het is voor mensen die kleurenblind zijn. 
 
 </details>
 
@@ -211,11 +210,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Tico                        | Naomi                        | Brett                   | Kars                         |
-  | ---                         | ---                          | ---                     | ---                          |
-  | dit bespreken               | en dit                       | en ik dit               | en dan ik dat                |
-  | en dat ook nog              | dit als er tijd is           | nog een punt            | dit wil ik zeker             |
-  | ...                         | ...                          | ...                     | ...                          |
+  | Tico                            | Naomi                        | Brett                   | Kars                                  |
+  | ---                             | ---                          | ---                     | ---                                   |
+  | Ik wil graag wat uitleg         | en dit                       | Ik wil mijn website     | Ik wil mijn HTML, CSS doorlopen       |
+  | over mediaquery en gewoon m'n   | dit als er tijd is           | globaal scannen.        | en vragen wat het beste is om         |
+  | site so far doornemen           | ...                          |                         | te doen om de vaart erin te houden.   |
 
 
   ### Verslag van meeting
@@ -262,10 +261,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
-
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Alle afbeeldingen zijn afkomstig van Apple.nl
+  2. 
+  3. 
 
 </details>
