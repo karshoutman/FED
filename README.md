@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Homepagina
-  <img src="images/www.apple.com_nl_.png" width="375px" alt="apple homepagina">
+  <img src="readme-images/www.apple.com_nl_.png" width="375px" alt="apple homepagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Kerstcadeaugids 
-  <img src="images/www.apple.com_nl_shop_gifts.png" width="375px" alt="apple kerstcadeaugids pagina">
+  <img src="readme-images/www.apple.com_nl_shop_gifts.png" width="375px" alt="apple kerstcadeaugids pagina">
  
 </details>
 
@@ -59,27 +59,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  De titels in de screenreaderlijst zijn anders dan wat er op de website staat. Dus bijvoorbeeld: als er een list-item op de website staat als "Nieuw" staat er in de screenreaderlijst een soort van acacadabra. De linklijst is wat chaotisch ingedeeld. Dus de volgorde van de lijst is niet logisch ingedeeld. Door de headings navigeren werkt wel goed. 
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Met Tab kan je de bovenste interactieve elementen gebruiken maar daarna schiet hij al snel naar beneden. Daarnaast wordt er niet verteld hoe je moet terugtabben door je screenreader. 
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Met elastiekjes om je vingers of een ballon in je ene hand ter afleiding is volgens mij elke website lastiger te bedienen. Op een telefoon valt het nog wel mee hoe moeilijk het is om de website te bedienen met elastiekjes om je vingers omdat het scherm niet zo heel groot is. 
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  De website ziet er prima uit in elke stand, blur, zwart-wit etc.
 
 </details>
 
@@ -90,11 +82,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
-  ### Homepagina: 
-  <img src="images/home.png" width="375px" alt="breakdown van homepagina">
+  ### de hele pagina: 
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
 
-  ### Kerstpagina: 
-  <img src="images/kerst.png" width="375px" alt="breakdown van kerstpagina">
+  ### dynamisch deel (bijv menu): 
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+
+  ### wellicht nog een dynamisch deel (bijv filter): 
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -108,24 +103,26 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  Ik vind code schrijven best lastig. Ook bij de vakken internetstandaarden en inleiding programmeren duurde het lang totdat ik iets had staan waar blij mee was. De eerste lessen van dit vak vind ik wel interessant, maar ook veel. Ik merk dat ik een beetje moeite heb met alles bijbenen. De eerste regels HTML en CSS staan voor 1 pagina. Duurt langgggg.. Maar goed. Ik geloof dat we er moeten komen.  
+  Ik vind code schrijven best lastig. Ook bij de vakken internetstandaarden en inleiding programmeren duurde het lang totdat ik iets had staan waar blij mee was. De eerste lessen van dit vak vind ik wel interessant, maar ook veel. Ik merk dat ik een beetje moeite heb met alles bijbenen. De eerste regels HTML en CSS staan voor 1 pagina. Duurt langgggg.. Maar goed. Ik geloof dat we er moeten komen.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Tico                 | Naomi.                                     | Brett                                                                 | Kars.            |
-  | ---                  | ---                                        | ---                                                                   | ---              |
-  | Basis HTML checken.  | HTML doorlopen en verbeteren waar nodig.   | Ik wil mijn site doornemen en even de elementen langslopen voor mijn breakdownschets.                                                                                                                              | Staat mijn mappenstructuur goed? En ik zou graag mijn eerste HTML (CSS) willen doorlopen. 
+  | Tico                       | Naomi                  | Brett                            | Kars                                   |
+  | ---                        | ---                    | ---                              | ---                                    |
+  | Basis HTML checken.        | HTML doorlopen en      | Ik wil mijn site doornemen       | Staat mijn mappenstructuur goed?       |
+  |                            | verbeteren waar nodig. | en even de elementen langslopen  | En ik zou graag mijn eerste HTML (CSS) |
+  |                            |                        | voor mijn breakdownschets.       | willen doorlopen.                      |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - De structuur en het overzicht moet ik flink verbeteren. Zo moet ik een body aanmaken met een header, nav, ul. En een main en footer. Daarbij moet ik meer overzicht brengen in mijn CSS bestand door aantekeningen te maken. 
+  - Ook was ik begonnen met classes. Om dit te verwijderen moest ik in de CSS de elementen anders aanspreken. Bijvoorbeeld door section > ul > li te typen. 
+  - In de CSS moest ik ook voor de gehele website een margin en padding van 0 meegeven. Op die manier kon ik het menu en andere elementen helemaal full-screen maken. 
+  - Om het doorklikmenu naast elkaar te krijgen moest ik flexbox gebruiken met width 100% en overflow scroll. 
 
 </details>
 
@@ -139,25 +136,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-Ik ben nog steeds bezig met de eerste pagina van mijn website. Ik denk dat er nu echt vaart achter moet en ik moet even inventariseren wat ik wil/moet doen voor een voldoende. 
+  Ik ben nog steeds bezig met de eerste pagina van mijn website. Ik denk dat er nu echt vaart achter moet en ik moet even inventariseren wat ik wil/moet doen voor een voldoende.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Tico                 | Naomi.                                     | Brett                                                                 | Kars.            |
-  | ---                  | ---                                        | ---                                                                   | ---              |
-  | Ik wil HTML en CSS doorkijken.  | Ik wil vragen wat te doen voor een voldoende.   | Ik wil kijken naar de grid op mijn homepagina want daar kom ik even niet uit.                                                                                                                            | Ik wil kijken naar mijn code en bespreken waar ik sta. (Hoe ver ben ik, wat staat me nog te wachten.)
-
+  | Tico                 | Naomi                      | Brett                                    | Kars                                   |
+  | ---                  | ---                        | ---                                      | ---                                    |
+  | Ik wil HTML en CSS   | Ik wil vragen wat te       | Ik wil kijken naar de grid op mijn       | Ik wil kijken naar mijn code           |
+  | doorlopen.           | doen voor een voldoende.   | homepagina want daar kom ik even         | en bespreken waar ik sta. (Hoe ver     |
+  |                      |                            | niet uit.                                | ben ik, wat staat me nog te wachten.)  |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - De indeling van de elementen van de blokken waar de producten in staan moet anders. Na de meeting is het gelukt om het goed vorm te geven. 
+  - We hebben het beoordelingsformulier doorgenomen en besproken waar we allemaal op moeten letten. 
+
 
 </details>
 
@@ -174,15 +171,15 @@ Ik ben nog steeds bezig met de eerste pagina van mijn website. Ik denk dat er nu
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Alle elementen op de website worden opzich wel goed voorgelezen door de screenreader maar als je Tab gebruikt skipt hij wel een paar elementen. Bijvoorbeeld de h1, h2 en bovenste afbeelding. Hij gaat gelijk naar de nav. Ook daarna skipt de screenreader de h3, h4 en p. 
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Het probleem ontstond doordat het voorlezen op "linkjes" stond, niet op "headings". Als je ctrl + option + U indrukt kan je kiezen welke soort elementen je wilt laten voorlezen. 
+
+  Ook hoor je twee keer dezelfde naam als je op een list-item komt. Dat komt omdat in de list-items een afbeelding en een p staat met dezelfde naam. De afbeeldingen hebben dezelfde alt-tekst als de p's. Om het op te lossen ga ik de alt-tekst weghalen. 
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Ik heb nog niet heel veel buttons of states om te testen. Maar wat wel werkte waren de list-items in het doorklikmenu. Als het zou werken zou je dus kunnen navigeren naar "nieuw" "gepersonaliseerde cadeaus's" en "zo gekozen". 
 
 
   #### Motoriek (shocks, elastiekjes)
@@ -208,17 +205,17 @@ Ik ben nog steeds bezig met de eerste pagina van mijn website. Ik denk dat er nu
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik ben blij en trots dat dat sommige dingen lukken. Wat ik wel merk is dat het heel lang duurt voordat ik iets aan de praat heb gekregen en dat ik er heel veel tijd in moet steken. Door drukke weekenden is het snel voorbij gegaan. 
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Tico                        | Naomi                        | Brett                   | Kars                         |
+  | ---                         | ---                          | ---                     | ---                          |
+  | dit bespreken               | en dit                       | en ik dit               | en dan ik dat                |
+  | en dat ook nog              | dit als er tijd is           | nog een punt            | dit wil ik zeker             |
+  | ...                         | ...                          | ...                     | ...                          |
 
 
   ### Verslag van meeting
