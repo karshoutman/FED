@@ -212,9 +212,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Tico                            | Naomi                        | Brett                   | Kars                                  |
   | ---                             | ---                          | ---                     | ---                                   |
-  | Ik wil graag wat uitleg         | en dit                       | Ik wil mijn website     | Ik wil mijn HTML, CSS doorlopen       |
-  | over mediaquery en gewoon m'n   | dit als er tijd is           | globaal scannen.        | en vragen wat het beste is om         |
-  | site so far doornemen           | ...                          |                         | te doen om de vaart erin te houden.   |
+  | Ik wil graag wat uitleg         | Heb nog wat specifieke       | Ik wil mijn website     | Ik wil mijn HTML, CSS doorlopen       |
+  | over mediaquery en gewoon m'n   | vragen.                      | globaal scannen.        | en vragen wat het beste is om         |
+  | site so far doornemen           |                              |                         | te doen om de vaart erin te houden.   |
 
 
   ### Verslag van meeting
