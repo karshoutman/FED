@@ -236,19 +236,32 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/homepagina" width="375px" alt="Homepagina">
+  <img src="readme-images/kerstpagina" width="375px" alt="Kerstpagina">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik ben geen persoon voor coderen. Dat weet ik onderhand nu wel. Ik heb moeite met coderen en doe er lang over om iets voor elkaar te krijgen. 
+  Zo ook bij dit project. Ik heb er veel tijd in moeten steken om de dingen zó te krijgen hoe ik het wilde. Toen ik er eenmaal een beetje in kwam ging het steeds soepeler. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Dingen die ik geleerd heb zijn:
+  - Je kan variabelen aanmaken in CSS.
+  - Grid kan makkelijk zijn om veel dezelfde content te positioneren. 
+  - Een hamburger menu leren maken. 
+
+  <img src="readme-images/root" width="375px" alt="Variabelen CSS">
+  <img src="readme-images/grid" width="375px" alt="Grid producten">
+  <img src="readme-images/menu" width="375px" alt="Hmaburger menu">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+ Ook zijn er dingen waar ik echt tegenaan ben gelopen en dat niet gelukt is. Doordat dit teveel tijd kostte en daardoor in de weg zat zit dit niet in de website:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+ - Animatie hamburger menu.
+ - Image slider onderaan homepagina. 
+
+  <img src="readme-images/animatie" width="375px" alt="Animatie menu">
+   <img src="readme-images/slider" width="375px" alt="Image slider onderaan homepagina">
 </details>
 
 
@@ -262,6 +275,5 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   1. Alle afbeeldingen zijn afkomstig van Apple.nl
   2. Hulp bij kleine CSS dingetjes heb ik gekregen van de 2 fantastische studentassisten en klasgenoten.
-  3. 
 
 </details>
