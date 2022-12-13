@@ -220,10 +220,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - De background-color van de main was niet responsive. Wanneer je de pagina een beetje probeerde te schalen stopte hij ermee rechts. Nu is het aangepast en is hij responsive. 
+  - Een afbeelding die achter de witte product-blokken moest kreeg ik er niet achter. Ook niet met "display-...". Nu staat hij erachter. 
+  - De afstand tussen de grid blokken kreeg ik niet netjes overal hetzelfde. Nu met gap is het gelukt. 
 
 </details>
 
@@ -262,7 +261,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>continu bijhouden terwijl je werkt</summary>
 
   1. Alle afbeeldingen zijn afkomstig van Apple.nl
-  2. 
+  2. Hulp bij kleine CSS dingetjes heb ik gekregen van de 2 fantastische studentassisten en klasgenoten.
   3. 
 
 </details>
