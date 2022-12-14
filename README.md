@@ -44,7 +44,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Kerstcadeaugids 
-  <img src="readme-images/www.apple.com_nl_shop_gifts.png" width="375px" alt="apple kerstcadeaugids pagina">
+  <img src="images/www.apple.com_nl_shop_gifts.png" width="375px" alt="apple kerstcadeaugids pagina">
  
 </details>
 
@@ -82,14 +82,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
-  ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  ### homepage: 
+  <img src="images/home.png" width="375px" alt="breakdown van de homepage">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  ### kerstpage: 
+  <img src="images/kerst.png" width="375px" alt="breakdown van de kerstpagina">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -236,8 +234,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/homepagina" width="375px" alt="Homepagina">
-  <img src="readme-images/kerstpagina" width="375px" alt="Kerstpagina">
+  <img src="images/homepagina" width="375px" alt="Homepagina">
+  <img src="images/kerstpagina" width="375px" alt="Kerstpagina">
 
 
   ### Dit ging goed/Heb ik geleerd: 
@@ -249,9 +247,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Grid kan makkelijk zijn om veel dezelfde content te positioneren. 
   - Een hamburger menu leren maken. 
 
-  <img src="readme-images/root" width="375px" alt="Variabelen CSS">
-  <img src="readme-images/grid" width="375px" alt="Grid producten">
-  <img src="readme-images/menu" width="375px" alt="Hmaburger menu">
+  <img src="images/root" width="375px" alt="Variabelen CSS">
+  <img src="images/grid" width="375px" alt="Grid producten">
+  <img src="images/menu" width="375px" alt="Hmaburger menu">
 
 
   ### Dit was lastig/Is niet gelukt:
@@ -260,8 +258,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
  - Animatie hamburger menu.
  - Image slider onderaan homepagina. 
 
-  <img src="readme-images/animatie" width="375px" alt="Animatie menu">
-   <img src="readme-images/slider" width="375px" alt="Image slider onderaan homepagina">
+  <img src="images/animatie" width="375px" alt="Animatie menu">
+   <img src="images/slider" width="375px" alt="Image slider onderaan homepagina">
 </details>
 
 
