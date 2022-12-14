@@ -247,9 +247,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Grid kan makkelijk zijn om veel dezelfde content te positioneren. 
   - Een hamburger menu leren maken. 
 
-  <img src="images/root" width="375px" alt="Variabelen CSS">
-  <img src="images/grid" width="375px" alt="Grid producten">
-  <img src="images/menu" width="375px" alt="Hamburger menu">
+  <img src="images/root.png" width="375px" alt="Variabelen CSS">
+  <img src="images/grid.png" width="375px" alt="Grid producten">
+  <img src="images/menu.png" width="375px" alt="Hamburger menu">
 
 
   ### Dit was lastig/Is niet gelukt:
@@ -258,8 +258,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
  - Animatie hamburger menu.
  - Image slider onderaan homepagina. 
 
-  <img src="images/animatie" width="375px" alt="Animatie menu">
-   <img src="images/slider" width="375px" alt="Image slider onderaan homepagina">
+  <img src="images/animatie.png" width="375px" alt="Animatie menu">
+   <img src="images/slider.png" width="375px" alt="Image slider onderaan homepagina">
 </details>
 
 
