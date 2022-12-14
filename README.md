@@ -249,7 +249,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   <img src="images/root" width="375px" alt="Variabelen CSS">
   <img src="images/grid" width="375px" alt="Grid producten">
-  <img src="images/menu" width="375px" alt="Hmaburger menu">
+  <img src="images/menu" width="375px" alt="Hamburger menu">
 
 
   ### Dit was lastig/Is niet gelukt:
