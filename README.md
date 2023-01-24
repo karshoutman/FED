@@ -280,7 +280,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 Na de eerste poging heb ik wat aanpassingen gedaan aan de code:
 
-1. De headinglevels in de 2 HTML-pagina's waren nog niet goed genoeg ingedeeld. Op de homepagina heb ik het voor het grootste gedeelte hetzelfde gelaten gezien alle sections dezelfde prioriteit op die pagina hebben. Dus, allemaal een h1 met daarbij een p. In de footer heb ik wel de h'tjes aangepast omdat de prioriteit niet goed was ingedeeld. De zinnen met weinig prioriteit zijn een p geworden en de ander een h. 
+1. De headinglevels in de 2 HTML-pagina's waren nog niet goed genoeg ingedeeld. Op de homepagina heb ik het voor het grootste gedeelte express hetzelfde gelaten gezien alle sections dezelfde prioriteit op die pagina hebben. Dus, allemaal een h1 met daarbij een p. In de footer heb ik wel de h'tjes aangepast omdat de prioriteit niet goed was ingedeeld. De zinnen met weinig prioriteit zijn een p geworden en de ander een h. 
 Op de kerstpagina heb ik wel flink wat aanpassingen gedaan aan de headinglevels. Ik heb namelijk alle overbodige h'tjes vervangen voor p's. Op die manier kwam ik precies uit met de h'tjes (1 tm 6) en zie je later in de pagina geen herhaling van h'tjes. 
 
 2. De microinteractie met Javascript heb ik zodanig aangepast dat het een minimaal een var, function en een addEventListener bevat. Eerst was dit niet zo maar het werkte wel. Ookal vond ik het in de eerste versie beter werken dan nu ben ik toch blij dat ik nu een microinteractie heb met de verplichte benodigheden. Ik heb nog geprobeerd te fixen dat je hem weg kan klikken zoals voorheen maar dat is me helaas niet gelukt. 
