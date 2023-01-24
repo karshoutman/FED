@@ -13,7 +13,10 @@ li {
 
 :root{
     --footer-tekstkleur: #424245;
+    --footer-background: #f2f2f5;
     --a-tekstkleur: #2997ff;
+    --headerkleur: #1D1D1F;
+    --donkerblauw: #0A072C;
 }
 
 
@@ -22,7 +25,7 @@ li {
 
 /* header */
 header nav ul{
-    background-color: #1D1D1F;
+    background-color: var(--headerkleur);
     height: 3em;
     display: flex;
     justify-content:space-between;
@@ -40,7 +43,6 @@ header h1 {
     color: white;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;;
     font-size: 19px;
-    background: #151521;
     padding: 12px 15px 12px;
     font-weight: 600;
 }
@@ -48,17 +50,24 @@ header h1 {
 
 
 
+
 /* dropdownmenu */
-/* onzichtbaar voor click */
-.list-items {
+.dropdown-menu {
     display: none;
+  }
+  
+  .dropdown-menu.show {
+    display: block;
+  }
+  
+header ul ul {
+    display: block;
     position: absolute;
-    background-color: #1D1D1F;
+    background-color: var(--headerkleur);
     width: 100%;
 }
   
- /* a */
-.list-items a {
+header ul ul a {
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;;
     font-weight: 350;
     color: white;
@@ -67,18 +76,17 @@ header h1 {
     padding-left: 2em;
     text-decoration: none;
     display: block;
+    background-color: var(--headerkleur);
 }
 
-.list-items a:nth-of-type(1) {
-    padding-top: 2em;
+header ul ul a:nth-of-type(1) {
+    padding-top: 3em;
 }
 
-.list-items a:nth-of-type(10) {
+header ul ul a:nth-of-type(10) {
     padding-bottom: 2em;
 }
   
- /* javascript */
-  .show {display:block;}
 
 
 
@@ -128,7 +136,7 @@ main section img{
 
 /* section 2 */
 main section:nth-of-type(2){
-    background-color: #0A072C;
+    background-color: var(--donkerblauw);
 }
 
 main section:nth-of-type(2) h1{
@@ -276,7 +284,7 @@ main section:nth-of-type(9) img{
 
 /* footer */
 footer {
-    background-color: #f2f2f5;
+    background-color: var(--footer-background);
     padding-left: 1em;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
@@ -291,7 +299,7 @@ footer section img{
 	width: 19px;
 }
 
-footer section:nth-of-type(1) h1{
+footer section p{
 	font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: 400;
 	color: var(--footer-tekstkleur);
@@ -301,17 +309,7 @@ footer section:nth-of-type(1) h1{
 	padding-right: 15px;
 }
 
-footer section:nth-of-type(2) h1{
-	justify-content: center;
-	font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-weight: 400;
-	color: var(--footer-tekstkleur);
-	font-size: 14px;
-	margin-left: 2em;
-	margin-top: 0.2em;
-}
-
-footer section:nth-of-type(3) h1{
+footer section:nth-of-type(3) p{
 	font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: 400;
 	color: var(--footer-tekstkleur);
@@ -321,13 +319,23 @@ footer section:nth-of-type(3) h1{
 	padding-right: 15px;
 }
 
-footer section:nth-of-type(4) h1{
+footer section:nth-of-type(4) p{
 	font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: 400;
 	color: var(--footer-tekstkleur);
 	font-size: 14px;
 	margin-top: 0.5em;
 	margin-bottom: 1em;
+}
+
+footer section h1{
+	justify-content: center;
+	font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 400;
+	color: var(--footer-tekstkleur);
+	font-size: 14px;
+	margin-left: 2em;
+	margin-top: 0.2em;
 }
 
 footer article ul li{
@@ -343,3 +351,18 @@ footer article:nth-of-type(2) ul{
 	display: flex;
 	flex-direction: column;
 }
+
+
+
+/* hover */
+.hover {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hover:hover{
+    transform: scale(1.1);
+  }
+
+  .focus:focus{
+      color: black;
+  }
