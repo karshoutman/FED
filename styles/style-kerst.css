@@ -13,14 +13,18 @@ li {
 
 :root{
     --footer-tekstkleur: #424245;
+    --footer-background: #f2f2f5;
     --a-tekstkleur: #2997ff;
+    --headerkleur: #1D1D1F;
+    --donkerblauw: #0A072C;
 }
+
 
 
 
 /* header */
 header nav ul{
-    background-color: #1D1D1F;
+    background-color: var(--headerkleur);
     height: 3em;
     display: flex;
     justify-content:space-between;
@@ -38,24 +42,30 @@ header h1 {
     color: white;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;;
     font-size: 19px;
-    background: #151521;
     padding: 12px 15px 12px;
     font-weight: 600;
+    background-color: var(--headerkleur);
 }
 
 
 
 /* dropdownmenu */
-/* onzichtbaar voor click */
-.list-items {
+.dropdown-menu {
     display: none;
+  }
+  
+  .dropdown-menu.show {
+    display: block;
+  }
+  
+header ul ul {
+    display: block;
     position: absolute;
-    background-color: #1D1D1F;
+    background-color: var(--headerkleur);
     width: 100%;
 }
   
- /* a */
-.list-items a {
+header ul ul a {
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;;
     font-weight: 350;
     color: white;
@@ -64,18 +74,16 @@ header h1 {
     padding-left: 2em;
     text-decoration: none;
     display: block;
+    background-color: var(--headerkleur);
 }
 
-.list-items a:nth-of-type(1) {
-    padding-top: 2em;
+header ul ul a:nth-of-type(1) {
+    padding-top: 3em;
 }
 
-.list-items a:nth-of-type(10) {
+header ul ul a:nth-of-type(10) {
     padding-bottom: 2em;
 }
-  
- /* javascript */
-  .show {display:block;}
 
   
 
@@ -104,7 +112,7 @@ main nav ul li a{
 
 /* main */
 main {
-    background-color: #0A072C;
+    background-color: var(--donkerblauw);
     padding-left: 1em;
     padding-right: 1em;
 	padding-bottom: 1em;
@@ -151,23 +159,6 @@ main h1{
 
 main h2{
     color: white;
-    font-size: 19px;
-    font-weight: 600;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
-    text-align: center;
-    margin-top: 16px;
-}
-
-main h3{
-    color: white;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
-    text-align: left;
-    font-size: 21px;
-    font-weight: 600;
-}
-
-main h4{
-    color: white;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
     margin-top: 9px;
     text-align: left;
@@ -175,17 +166,7 @@ main h4{
     font-weight: 600;
 }
 
-main h5{
-	color: white;
-	font-size: 23px;
-    font-weight: 600;
-	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
-	text-align: center;
-	margin-top: 16px;
-	margin-bottom: 10px;
-}
-
-main h6{
+main h3{
     color: white;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
     margin-top: 9px;
@@ -197,7 +178,25 @@ main h6{
 }
 
 
+
 main p{
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    margin-top: 16px;
+}
+
+main p:nth-of-type(2){
+    color: white;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: left;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+main p:nth-of-type(3){
     color: white;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
     text-align: left;
@@ -207,6 +206,26 @@ main p{
     white-space: pre-wrap;
 }
 
+main p:nth-of-type(4){
+    color: white;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: left;
+    padding-left: 3px;
+    font-size: 17px;
+    font-weight: 400;
+    white-space: pre-wrap;
+}
+
+main p :nth-of-type(5){
+    color: white;
+	font-size: 23px;
+    font-weight: 600;
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-align: center;
+	margin-top: 16px;
+	margin-bottom: 10px;
+}
+
 main a{
 	color: var(--a-tekstkleur);
 	text-decoration: none;
@@ -214,9 +233,10 @@ main a{
 	font-size: 17px;
 	display: flex;
 	justify-content: center;
+    padding-top: 1em;
 }
 
-main article h1{
+main article h4,h5,h6{
 	color: white;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
     text-align: left;
@@ -225,7 +245,7 @@ main article h1{
 	padding-left: 17px;
 }
 
-main article h2{
+main article p{
     color: white;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
     text-align: left;
@@ -315,13 +335,13 @@ main section:nth-of-type(6) li img{
 }
 
 main section p:nth-of-type(1){
-    color: #1d1d1f;
+    color: var(--donkerblauw);
     font-weight: 600;
     font-size: 14px;
 }
 
 main section p:nth-of-type(2){
-    color: #1d1d1f;
+    color: var(--donkerblauw);
     font-weight: normal;
     font-size: 14px;
 }
@@ -354,7 +374,7 @@ main section:nth-of-type(6)>ul{
 
 /* footer */
 footer {
-    background-color: #f2f2f5;
+    background-color: var(--footer-background);
     padding-left: 1em;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
@@ -369,7 +389,7 @@ footer section img{
 	width: 19px;
 }
 
-footer section:nth-of-type(1) h1{
+footer section p{
 	font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: 400;
 	color: var(--footer-tekstkleur);
@@ -379,17 +399,7 @@ footer section:nth-of-type(1) h1{
 	padding-right: 15px;
 }
 
-footer section:nth-of-type(2) h1{
-	justify-content: center;
-	font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-weight: 400;
-	color: var(--footer-tekstkleur);
-	font-size: 14px;
-	margin-left: 2em;
-	margin-top: 0.2em;
-}
-
-footer section:nth-of-type(3) h1{
+footer section:nth-of-type(3) p{
 	font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: 400;
 	color: var(--footer-tekstkleur);
@@ -399,13 +409,23 @@ footer section:nth-of-type(3) h1{
 	padding-right: 15px;
 }
 
-footer section:nth-of-type(4) h1{
+footer section:nth-of-type(4) p{
 	font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: 400;
 	color: var(--footer-tekstkleur);
 	font-size: 14px;
 	margin-top: 0.5em;
 	margin-bottom: 1em;
+}
+
+footer section h1{
+	justify-content: center;
+	font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 400;
+	color: var(--footer-tekstkleur);
+	font-size: 14px;
+	margin-left: 2em;
+	margin-top: 0.2em;
 }
 
 footer article ul li{
@@ -421,3 +441,26 @@ footer article:nth-of-type(2) ul{
 	display: flex;
 	flex-direction: column;
 }
+
+.grow { 
+    transition: all .2s ease-in-out; 
+    }
+    
+    .grow:hover { 
+    transform: scale(1.1); 
+    }
+
+
+
+    /* hover */
+.hover {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hover:hover {
+    transform: scale(1.1);
+  }
+
+  .focus:focus{
+    color: black;
+  }
